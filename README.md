@@ -1,29 +1,14 @@
-# README #
-
-This README would normally document whatever steps are necessary to get your application up and running.
 
 ### What is this repository for? ###
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+* This is a test application
 
 ### How do I get set up? ###
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+* git clone https://github.com/sondave/medbok-dev-app.git
+* Create an empty database
+* navigate to app-files folder on /medbok-dev-app/app-files
+* run cp .env.example .env and update database configurations for the application in the .env file 
+* run php artisan migrate 
+* run composer install command in your application root folder
+* run php artisan key:generate
